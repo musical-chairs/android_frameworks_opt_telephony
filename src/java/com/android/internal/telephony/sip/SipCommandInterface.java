@@ -543,6 +543,8 @@ class SipCommandInterface extends BaseCommands implements CommandsInterface {
     public void getVoiceRadioTechnology(Message result) {
     }
 
+    public boolean needsOldRilFeature(String feature) { return false; }
+
     @Override
     public void getCellInfoList(Message result) {
     }
